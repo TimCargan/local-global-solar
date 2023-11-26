@@ -1,0 +1,4 @@
+,,nrmse,nrmse,nrmse,nrmse,nrmse,nrmse,nrmse,nrmse,nrmse
+step,,-2,-1,0,1,2,3,4,5,6
+mode,plant,,,,,,,,,
+1,384,,,,0.262246,0.28788683,0.29724365,0.29956815,0.30085534,0.2973605
