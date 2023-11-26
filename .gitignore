@@ -1,0 +1,27 @@
+### Project files to ignore
+.idea
+__pycache__
+**/*.DS_Store
+~$*
+### Raw data files
+temp_data/
+**.pqt
+**.parquet
+**/*.pqt/
+**/*.tfdata/
+**/*.tfrecords/
+.tfrecords
+**/*.mp4
+
+**/*.egg-info/
+#Key files
+**/*.key
+
+**/*.out
+
+# Misc things
+arc
+random/
+/eumetsat/eumetsat.key
+
+**/.ipynb_checkpoints/

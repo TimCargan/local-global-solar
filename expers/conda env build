@@ -1,0 +1,8 @@
+conda update -n base -c defaults conda
+conda create -n zeph python==3.11
+
+pip install --upgrade "jax[cuda]==4.18" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install chemise @ git+https://github.com/TimCargan/chemise.git@main
+pip install hemera @ git+https://github.com/TimCargan/hemera.git@main
+pip install -e .
+

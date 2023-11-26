@@ -1,0 +1,35 @@
+setuptools
+numpy
+tensorflow ; sys_platform!="darwin"
+tensorflow-metal ; platform_system=="darwin"
+tensorflow-macos ; platform_system=="darwin"
+tensorflow-io ; sys_platform!="darwin"
+tensorflow-datasets ; sys_platform!="darwin"
+tensorflow-addons
+tensorflow-decision-forests ; platform_system=="Linux"
+rich
+pandas
+requests
+keras-tuner
+pandas
+scikit-learn
+pyarrow
+python-snappy
+pillow
+pyspark
+jupyterlab
+kaleido
+plotly
+haversine
+pyproj
+pyresample
+aletheia @ git+https://github.com/TimCargan/alethia.git
+
+
+chemses
+zephyrus~=0.0.1a0
+keras~=2.10.0
+aletheia~=0.0.1a0
+joblib~=1.1.0
+tqdm~=4.64.0
+python-dateutil~=2.8.2
